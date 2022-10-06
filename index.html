@@ -1,69 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Photographer Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
+
 <body>
-    <nav>
-        <div class = "navbar">
-            <ul>
-                <li><img src="images/logo.png" alt="" height="15%" width="15%" id = "left"></li>
-                <li id = "left">IMAGE</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Blogs</li>
-                <li>Plans</li>
-                <li>Gallery</li>
-                <li>Contact Us</li>
-                <li><button>Book Trial</button> </li>
-
-            </ul>
+    <header>
+        <a href="#" class="logo"><i class="fas fa-camera-retro"></i>IMAGE</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blogs</a>
+            <a href="#">Plans</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact Us</a>
+        </nav>
+        <a href="#book-form" class="pagebutton">Book Trial</a>
+    </header>
+    <div id="bloghead">
+        <h3>Photographer's Blog</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quod illo tempore voluptatem, ad ea harum, suscipit dolor sequi alias, quam maxime accusamus esse vero delectus neque modi officiis excepturi!
+        Molestias ratione, optio et autem cum doloribus cumque iusto quidem culpa eveniet perferendis error eum aut tempora modi accusantium amet repellat excepturi natus. Cupiditate repellat ipsam autem molestias sit enim.
+        Quia debitis accusamus voluptatum nisi ab rem, facere omnis, nemo reiciendis quibusdam obcaecati modi neque quisquam, exercitationem distinctio optio provident libero quo voluptatibus veniam facilis earum? Fugiat voluptatum illo mollitia.
+        Saepe distinctio iste a asperiores praesentium illum officia, adipisci nemo quos assumenda illo corrupti quae porro molestias maxime atque ab. Libero veritatis nemo, deleniti odit soluta pariatur recusandae inventore laboriosam!</p>
+    </div>
+    <main id="imagesection">
+        <div class="mainimage">
+            <img src="images/1.jpg" alt="">
+            <i class="fas fa-camera"></i>
         </div>
-    </nav>
-    <div class = "content">
-        <p>Photographer's Blog</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt iure voluptatum doloremque similique culpa iusto velit enim, sapiente maiores! Adipisci voluptas nisi velit porro voluptatum unde architecto excepturi libero rerum!
-        Beatae quos et nam. Quidem tempore veniam, consectetur, dignissimos est id iusto quae dolore pariatur deserunt repudiandae a quis modi sequi magni rerum ducimus ad. Quis odio deleniti ipsa inventore?</p>
-    </div>
-    <div class = "img_display">
-        <img src="images/1.jpg" alt="" height = 25% width="30%">
-        <img src="images/2.jpg" alt="" height = 25% width="30%">
-        <img src="images/3.jpg" alt="" height = 25% width="30%">
-        <img src="images/4.jpg" alt="" height = 25% width="30%">
-        <img src="images/5.jpg" alt="" height = 25% width="30%">
-        <img src="images/6.jpg" alt="" height = 25% width="30%">
-    </div>
-    <div class = "Container">
-        <center>
-            <h3>Start your Journey !</h3>
-            <h1>Let's Capture This World</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil rem eos laudantium! Dolor vitae expedita rem. Odio molestiae fugit, itaque inventore, ipsa quod minus eligendi illo eveniet impedit non?</p>
-            <button>Book Trial</button></center>
+        <div class="mainimage">
+            <img src="images/2.jpg" alt="">
+            <i class="fas fa-camera"></i>
+        </div>
+        <div class="mainimage">
+            <img src="images/3.jpg" alt="">
+            <i class="fas fa-camera"></i>
+        </div>
+        <div class="mainimage">
+            <img src="images/4.jpg" alt="">
+            <i class="fas fa-camera"></i>
+        </div>
+        <div class="mainimage">
+            <img src="images/5.jpg" alt="">
+            <i class="fas fa-camera"></i>
+        </div>
+        <div class="mainimage">
+            <img src="images/6.jpg" alt="">
+            <i class="fas fa-camera"></i>
+        </div>
 
-    </div>
-    <div class = "Photography">
-        <h1>Photography</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsa velit debitis excepturi iusto recusandae repellat commodi libero quam dolore sit labore blanditiis, officia beatae hic? Suscipit porro itaque impedit?</p>
-    </div>
-    <div class = "Contact Info">
-        <h1>Contact Info</h1>
-        <ul>
-            <li>New Delhi</li>
-            <li>+91647747</li>
-            <li>abca@gla.ac.in</li>
-            <li>7:00AM - 9:00PM</li>
-        </ul>
-    </div>
-    <div class = "Newsletter">
-        <h1>Newsletter</h1>
-        <p>Subscribe for latest updates</p>
-        <button type="email">Enter your Email-id</button>
-        <button>Subscribe</button>
-    </div>
+    </main>
 
+    <section class="banner">
+        <div class="text">
+            <span>start your Journey !</span>
+            <h3>Let's Capture This World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum praesentium amet quibusdam quam officia suscipit odio.</p>
+            <a href="#" class="pagebutton">book trial</a>
+        </div>
+    </section>
+
+    <div id="footer">
+        <div class="innerfooter">
+            <a href="#" class="logo">Photography</a>
+            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Dolores, non?</p>
+            <div class="footericons">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="innerfooter">
+            <h3>Contact Info</h3>
+            <p>New Delhi, India</p>
+            <p>+9999-999-999</p>
+            <p>abcd@gmail.com</p>
+            <p>7:00am - 10:00pm</p>
+        </div>
+        <div class="innerfooter">
+            <h3>Newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="enter your email" class="inputemail" name=""><br>
+                <input type="submit" name="" id="" value="Subscribe" class="pagebutton">
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
