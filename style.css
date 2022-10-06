@@ -28,7 +28,7 @@ header nav a:hover {
     color: #53aead;
 }
 
-.pagebutton {
+.page1 {
     display: inline-block;
     cursor: pointer;
     text-decoration: none;
@@ -40,7 +40,7 @@ header nav a:hover {
     transition: .5s;
 }
 
-.pagebutton:hover {
+.page1:hover {
     background-color: #29d9d5;
     color: #111;
 }
@@ -58,7 +58,7 @@ header nav a:hover {
     font-size: 2rem;
 }
 
-#bloghead {
+#blog {
     width: 80vw;
     background-color: rgb(239, 226, 226);
     margin: 1rem auto;
@@ -66,15 +66,15 @@ header nav a:hover {
     border-radius: 10px;
 }
 
-#bloghead h3 {
+#blog h3 {
     color: rgb(22, 22, 140);
 }
 
-#bloghead p {
+#blog p {
     font-size: .9rem;
 }
 
-#imagesection {
+#image {
     width: 82vw;
     margin: 20px auto;
     display: grid;
@@ -83,25 +83,25 @@ header nav a:hover {
     gap: 20px;
 }
 
-#imagesection .mainimage {
+#image .imageblock {
     border-radius: 10px;
     position: relative;
 }
 
-#imagesection .mainimage img {
+#image .imageblock img {
     width: 100%;
     height: 100%;
     border-radius: 10px;
     transition: 50ms;
 }
 
-#imagesection .mainimage img:hover {
+#image .imageblock img:hover {
     cursor: pointer;
     opacity: 0.4;
     filter: grayscale(80%);
 }
 
-#imagesection i {
+#image i {
     font-size: 3rem;
     position: absolute;
     top: 50%;
@@ -111,7 +111,7 @@ header nav a:hover {
     transition-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
-#imagesection:hover i {
+#image:hover i {
     transform: scale(1.1);
     transform: translate(-50%, -50%);
 }
@@ -211,11 +211,11 @@ header nav a:hover {
     border-radius: 2rem;
 }
 
-#footer .innerfooter form .pagebutton {
+#footer .innerfooter form .page1 {
     background: none;
 }
 
-#footer .innerfooter form .pagebutton:hover {
+#footer .innerfooter form .page1:hover {
     background-color: #29d9d5;
     color: #111;
 }
